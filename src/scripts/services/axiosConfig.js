@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosConfig = axios.create({
-  baseURL: 'http://127.0.0.1:3000/',
+  baseURL: 'https://json-server-kappa-nine.vercel.app/',
 });
 
 export default axiosConfig;
